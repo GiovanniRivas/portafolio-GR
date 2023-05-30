@@ -20,6 +20,9 @@ h1 {
     font-size: 2.5rem; 
     font-family: 'Rubik Dirt', cursive;
 }
+.contenedor {
+    text-align: center;
+}
 .seccion-oscura {
     color: azure;
     background-color: rgb(12, 24, 20);
@@ -152,7 +155,10 @@ h1 {
 .overlay .iconos-contenedor {
     display: flex;
 }
-.overlay i {
+.overlay i { 
+    color: black;
+    font-size: 60px;
+    margin: 10px;
     
 }
 .overlay p {
@@ -169,7 +175,9 @@ h1 {
 .proyecto:hover .overlay {
     opacity: 1;
 }
-
+.experiencia-laboral {
+    
+}
 /*adaptable (responsive)*/
 @media  screen and (max-width:767px) {
     .navbar-brand {
