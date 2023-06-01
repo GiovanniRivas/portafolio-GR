@@ -133,8 +133,8 @@ h1 {
 }
 .proyectos-resientes img {
     height: 100%;
-    width: 100%;
-    padding: 10px;
+    width: 100%px;
+    padding: 40px;
     border-radius: 10px;
     display: block;
     transition: all 0.2s ease;
